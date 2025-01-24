@@ -1,0 +1,55 @@
+body {
+    background-image: url(assets/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Covers the viewport */
+    background-attachment: fixed;
+    margin: 0;
+    display: flex; /* Make the body a flex container */
+    flex-direction: column; /* Stack child elements vertically */
+    justify-content: center; /* Center all children vertically */
+    align-items: center; /* Center all children horizontally */
+    height: 100vh; /* Full height of the viewport */
+}
+
+
+#date-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Adjust height based on content */
+    /* width: 100%; */
+}
+
+
+#date {
+    font-family: monospace;
+    font-size: 5.25rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(1px);
+    /* background-color: rgba(114, 113, 113, 0.123); */
+    width: 100%;
+}
+
+
+#clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* adjust height based on content */
+    width: 100%;
+}
+
+
+#clock {
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(2px);
+    background-color: rgba(114, 113, 113, 0.123);
+    width: 100%;
+}
